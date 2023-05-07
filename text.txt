@@ -1,0 +1,9 @@
+Install
+composer require ibex/crud-generator --dev
+
+Publish the default package's-config
+php artisan vendor:publish --tag=crud
+
+
+
+php artisan make:crud estudiantes
